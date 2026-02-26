@@ -1,0 +1,60 @@
+/* Reset default margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading 1 */
+h1 {
+    color: #4e73df;
+    margin-bottom: 15px;
+}
+
+/* Heading 2 */
+h2 {
+    color: #1cc88a;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4e73df;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #2e59d9;
+}
